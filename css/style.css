@@ -496,3 +496,31 @@ width: 100px;
 }
 
 /* footer close */
+
+/* btn back to top */
+#btn-back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--red) !important;
+    border-radius:30px;
+    display: none;
+    z-index: 1;
+    outline: 2px solid var(--white) !important;
+    transition:all 1s ease-in-out;
+} 
+
+#btn-back-to-top:hover{
+    background-color: var(--blue-dark) !important;
+}
+#btn-back-to-top:hover::before{
+    content: 'Back To Top';
+    color: white;
+  }
+
+  #btn-back-to-top i{
+color: var(--white);
+
+}
+
+/* back to top close */
