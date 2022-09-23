@@ -251,7 +251,7 @@ padding-top: 120px;
     overflow: hidden;
     background-color: var(--white);
     padding: 30px !important;
-    border-radius: 5px;
+    border-radius: 1px;
     /* border: 2px solid var(--blue); */
     box-shadow: var(--box-shadow);
    
@@ -286,4 +286,43 @@ padding-top: 120px;
     background-size: cover;
    /* filter: blur(10px); */
    background-attachment: fixed;
+  }
+  .sec-heading{
+    color: var(--blue-dark) !important;
+    font-size: 50px !important;
+    opacity: .8;
+  }
+  .about-card{
+    line-height: 2em;
+    background-color: var(--blue) !important;
+    color: var(--white);
+  }
+  .about-card p::first-letter{
+    font-size: 50px;
+    color: var(--red);
+    font-weight: bold;
+  }
+
+
+
+  /*testimonials */
+  #testimonials img{
+width: 100px;
+  }
+  #testimonials .carousel-content{
+    text-align: center;
+    padding: 30px;
+  }
+  #testimonials{
+    padding: 20px !important;
+  }
+
+  #testimonials .carousel-control-prev{
+    margin-left: 0px;
+  }
+  #testimonials .carousel-control-next{
+    margin-right: 0px ;
+  }
+  #testimonials p{
+    padding:0 30px;
   }
